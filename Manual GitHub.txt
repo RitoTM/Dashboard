@@ -1,0 +1,53 @@
+Git Status -s = muestra el estado de los documentos
+===============================================
+Git add = Agrega los archivos al staging area
+Git add . = Agrega a todos los archivos
+Git add file.extension = Agrega un solo archivo
+===============================================
+Git commit -m "" = Agregar los archivos del staging area al repositorio local
+Git commit -am "" = Agrega los archivos y realiza el commit en un solo comando
+================================================================================
+Git log = Muestra los commits realizados(codigo,author,fecha,mensaje)
+Git log --oneline = Muestra los commits realizados(codigo,mensaje)
+=====================================================================
+Git branch = Muestra las ramas
+Git branch Branch'sname = Crea una nueva rama
+=============================================
+Git commit --amend = Permite modificar los mensajes del commit
+=============================================
+Git remote origin "branch" http... = Vincula el repositorio local con el remoto
+===============================================================================
+Git push origin "branch" = Enviar los datos del repositorio local al remoto
+Git push --tags = Enviar tag del repositorio local al remoto 
+===============================================================================
+Git pull = Retorna los datos del repositorio remoto hacia el local
+===============================================================================
+Git Tag "name" -m "message" = Iniciar versiones del proyecto
+===============================================================================
+Git clone "url" = Clonar proyecto remoto con https
+===============================================================================
+Git branch "Branchname"= Agrega una nueva rama al proyecto
+Git branch = Muestra las ramas del proyecto
+Git checkout "Branchname" = Mueve hacia la rama que le indicas
+===============================================================================
+Git merge "Branch" = Fusiona la rama copia con la rama master.
+git branch -d "Branch" = Eliminar rama
+
+
+
+======================
+INDICACIONES DE ESTADO
+----------------------
+U = unfollow _ sin seguimiento
+A = add _ agregados
+M = modified - modificado
+C = Both modified - ambos modificados
+==============================
+
+
+**EDITOR VIM**
+:i = Permite accedar al contenido, pulsar cualquier tecla para poder editar.
+tecla "Esc" = Para salir del modo edición, luego volver a presiona :i para editar el contenido
+					 , luego pulsar enter y Esc para finalizar la edición
+
+:wq = Guardar y salir del editor
